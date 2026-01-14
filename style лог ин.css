@@ -1,0 +1,110 @@
+/* Основные стили страницы */
+body {
+    background-color: rgba(152, 196, 202, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    gap: 15px;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Заголовок */
+h3 {
+    color: rgb(16, 112, 119);
+    margin: 0;
+    text-align: center;
+}
+
+/* Контейнер формы */
+.login-form {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    width: 100%;
+    max-width: 350px; /* форма не шире 350px */
+    margin-bottom: 50px;
+}
+
+/* Поля ввода */
+.login-form input,
+.field input {
+    width: 100%; /* 100% от контейнера формы */
+    padding: 10px 12px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/* Кнопка */
+.login-btn {
+    width: 100%; /* растягиваем по ширине контейнера формы */
+    max-width: 350px; /* не шире формы */
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgba(30, 142, 149, 1);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: rgb(105, 212, 220);
+}
+
+/* Ссылки под формой */
+.links p {
+    margin: 5px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.links p a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.links p a:hover {
+    text-decoration: underline;
+}
+
+/* Адаптив для мобильных */
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+        height: auto; /* чтобы не зъезжало */
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .login-form {
+        margin-bottom: 30px;
+    }
+
+    .login-form input,
+    .login-btn {
+        max-width: 100%;
+    }
+
+    .login-btn {
+        height: 44px;
+        line-height: 44px;
+        font-size: 16px;
+    }
+
+    .links p {
+        font-size: 14px;
+    }
+}

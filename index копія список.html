@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NETFLIX</title>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style копія список.css">
+</head>
+
+<body>
+
+<!-- список фільмів -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+<div class="top-bar">
+
+    <div class="logo">
+        Cinemate
+    </div>
+
+    <div class="top-actions">
+        <span class="icon"><img src="Vector.svg" alt=""></span>
+
+        <select class="lang">
+       <option>Ukrainian </option>
+  <option>English</option>
+  <option>Polish</option>
+  <option>Portugese</option>
+  <option>Espanol</option>
+        </select>
+
+      <!--  <span class="icon"><img src="аватарка.jpeg" alt=""></span> -->
+
+       <a href="index реєстрація.html">
+      <img src="аватарка.jpeg" class="avatar" alt="avatar">
+</a>
+
+    </div>
+
+</div>
+
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+      class="active"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="div.default-ltr-cache-142hwrm копія.png" class="d-block w-100" alt="slide 1">
+      <div class="carousel-caption">
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="div.default-ltr-cache-142hwrm копія.png" class="d-block w-100" alt="slide 2">
+      <div class="carousel-caption">
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="div.default-ltr-cache-142hwrm копія.png" class="d-block w-100" alt="slide 3">
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button"
+    data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button"
+    data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- фільми -->
+<section class="row">
+
+  <div class="row-header">
+    <h2>Continue watching</h2>
+
+    <select id="genreFilter" class="genreFilter">
+      <option value="all">All genres</option>
+      <option value="action">Action</option>
+      <option value="cartoon">Cartoon</option>
+      <option value="detectives">Detectives</option>
+       <option value="thrillers">Thrillers</option>
+         <option value="horrors">Horrors</option>
+    </select>
+  </div>
+
+  <div class="slider">
+    <img src="Rectangle 42.png" 
+    data-title="Iron Man" 
+    data-year="2008" 
+    data-author="Стэн Ли, Ларри Либер, Дон Хэк, Джек Кирби" 
+    data-duration="2h 6m" 
+    data-hero="Tony Stark" 
+    data-genre="action" >
+    
+      <img src="Rectangle 43.png" 
+    data-title="Iron Man" 
+    data-year="2008" 
+    data-author="Стэн Ли, Ларри Либер, Дон Хэк, Джек Кирби" 
+    data-duration="2h 6m" 
+    data-hero="Tony Stark" 
+    data-genre="action" >
+
+      <img src="мстители.jpeg" 
+    data-title="Мстители: Финал" 
+    data-year="26 квіня 2019" 
+    data-author="Продюсер	Кевин Файги" 
+    data-duration="3h 1m" 
+    data-hero="Роберт Дауни-младший
+Крис Эванс
+Марк Руффало
+Крис Хемсворт" 
+    data-genre="action" >
+
+          <img src="Rectangle 45.png" 
+    data-title="Captain America" 
+    data-year="березень 1941" 
+    data-author="Marvel Comics" 
+    data-duration="1h 58m" 
+    data-hero="Стивен Роджерс" 
+    data-genre="action" >
+
+          <img src="фильм 5.jpeg" 
+    data-title="Эйс Вентура 2: Коли кличе природа" 
+    data-year="4 лютого 1994." 
+    data-author=" Том Шедьяк" 
+    data-duration="1h 26m" 
+    data-hero="Джим Керри" 
+    data-genre="cartoon" >
+
+  </div>
+
+</section>
+
+
+<section class="row">
+  <h2>Recommendations for you</h2>
+  <div class="slider">
+    <img src="Rectangle 46.png" data-genre="action">
+    <img src="Rectangle 47.png" data-genre="horror">
+    <img src="Rectangle 48.png" data-genre="cartoon">
+
+           <img src="фильм1.jpeg" 
+    data-title="Таємне життя домашніх тварин" 
+    data-year="8 липня 2016" 
+    data-author="Крис Рено" 
+    data-duration="1h 30m" 
+    data-hero="pets" 
+    data-genre="cartoon" >
+
+           <img src="сімпсони.jpeg" 
+    data-title="Сімпсони" 
+    data-year="17 грудня 1989" 
+    data-author="Мэтт Гроунинг" 
+    data-duration="22m" 
+    data-hero="батько Гомер, мати Мардж, син Барт, донька Ліса та наймолодша Меггі" 
+    data-genre="cartoon" >
+
+  <img src="фильм 4.jpeg" 
+    data-title="Аватар " 
+    data-year="19 грудня 2025" 
+    data-author=" Джеймс Кэмерон, Аманда Сильвер, Джош Фридман, Шейн Салерно" 
+    data-duration="3h 17m" 
+    data-hero="Джейк Салли" 
+    data-genre="action" >
+  </div>
+</section>
+
+
+<section class="row">
+  <h2>Top detectives of this year</h2>
+  <div class="slider">
+  <img src="детектив 1.jpeg" 
+    data-title="21 BRIDGES" 
+    data-year="2019" 
+    data-author="Брайан Кирк" 
+    data-duration="1h 39m" 
+    data-hero="Андре Дэвис" 
+    data-genre="detectives" >
+
+  <img src="детектив 2.jpeg" 
+    data-title="Особливо тяжкі злочини" 
+    data-year="3 квітня 2002" 
+    data-author="Карл Франклин" 
+    data-duration="1h 55m" 
+    data-hero="Эшли Джадд; Морган Фримен; Джеймс Кэвизел; Адам Скотт; Аманда Пит" 
+    data-genre="detectives" >
+
+<img src="детектив 3.jpeg" 
+    data-title="Hell Hole" 
+    data-year="2024" 
+    data-author="Джон Адамс, Тоби Поузерн" 
+    data-duration="1h 32m" 
+    data-hero="Джон (Джон Адамс), Тедди (Макс Портман) и Эмили (Тоби Поузер)" 
+    data-genre="detectives" >
+
+<img src="детектив 4.jpeg" 
+    data-title="Відправлення" 
+    data-year="10 липня 2019" 
+    data-author="Джон Адамс, Тоби Поузерн" 
+    data-duration="1h 32m" 
+    data-hero="Кундо Кояма" 
+    data-genre="detectives" >
+
+<img src="детектив 5.jpeg" 
+    data-title="Відправлення" 
+    data-year="16 січня 2025" 
+    data-author="Andy Mosse" 
+    data-duration="50m" 
+    data-hero="Джанетт Килберн (Ева Майлз) и психотерапевт София Крэйвен (Кэтерин Келли)" 
+    data-genre="detectives" >
+
+ <img src="фильм 7.jpeg" 
+    data-title="Спостерігачі " 
+    data-year="2021" 
+    data-author=" Грег Гілріт
+Адам Гендрікс" 
+    data-duration="1h 56m" 
+    data-hero="Сідні Свіні
+Джастіс Сміт
+Бен Гарді
+Наташа Лю Бордіццо" 
+    data-genre="detectives" >
+  </div>
+</section>
+
+
+<section class="row">
+  <h2>Top thrillers of this year</h2>
+  <div class="slider">
+
+  <img src="shark.jpeg" 
+    data-title="Shark" 
+    data-year="1975" 
+    data-author=" Питер Бенчли Карл Готтлиб" 
+    data-duration="2h" 
+    data-hero="Рой Шайдер Роберт Шоу Ричард Дрейфус" 
+    data-genre="thrillers" >
+
+  <img src="единоріг.jpeg" 
+    data-title="Смерть единоріга" 
+    data-year="28 березня 2025" 
+    data-author="Алекс Шарфман" 
+    data-duration="1h 48m" 
+    data-hero="Пол Радд; Дженна Ортегас" 
+    data-genre="thrillers" >
+
+  <img src="кохання.jpeg" 
+    data-title="Помри, моє кохання" 
+    data-year="7 листопада 2025" 
+    data-author="Линн Рэмси" 
+    data-duration="1h 58m" 
+    data-hero="Дженнифер Лоуренс Роберт Паттинсон" 
+    data-genre="thrillers" >
+
+  <img src="легенда.jpeg" 
+    data-title="Легенда" 
+    data-year="9 вересня 2015" 
+    data-author="Брайан Хелгеленд" 
+    data-duration="2h 12m" 
+    data-hero="Том Харди  Гари Кемп" 
+    data-genre="thrillers" >
+
+  <img src="беглец.jpeg" 
+    data-title="Втікач" 
+    data-year="26 травня 2023" 
+    data-author="Рик Роман Во" 
+    data-duration="2h" 
+    data-hero="Зои Дойч " 
+    data-genre="thrillers" >
+
+  <img src="матриця часу.jpeg" 
+    data-title="Матриця часу" 
+    data-year="3 березня 2017" 
+    data-author="РРи Руссо-Янг" 
+    data-duration="1h 39m" 
+    data-hero="Джерард Батлер; Али Фазал" 
+    data-genre="thrillers" >
+
+<img src="трилер 3.jpeg" 
+    data-title="БожеВільні" 
+    data-year="31 жовтня 2024" 
+    data-author="Денис Тарасов" 
+    data-duration="1h 59m" 
+    data-hero="Костянтин Темляк Ірма Вітовська
+Сергій Калантай
+Остап Ступка
+Віталій Салій
+Андрій Мостренко
+Павло Костіцин
+Сергій Кисіль
+Анастасія Пустовіт" 
+    data-genre="thrillers" >
+
+
+               <img src="трилер 5.jpeg" 
+    data-title="Заповіт" 
+    data-year=" ПРЕМЬЕРА: 11 березня 2026 року" 
+    data-author="Павло Мова" 
+    data-duration="2h 17m" 
+    data-hero="Аманда Сейфрід (Ann Lee) — засновниця релігійного руху шейкерів" 
+    data-genre="thrillers" >
+  </div>
+</section>
+
+<section class="row">
+  <h2>Top horrors of this year</h2>
+  <div class="slider">
+     <img src="хорор 6.jpeg" 
+    data-title="Американська історія жахів" 
+    data-year="5 жовтня 2011" 
+    data-author="Райан Мёрфи" 
+    data-duration="50m" 
+    data-hero="Доктор Бен Хармон, Вивьен Хармон, Вайолет Хармон, Тейт Лэнгдон, Констанс Лэнгдон, Ларри Харв" 
+    data-genre="horrors" >
+
+      <img src="хорор 7.jpeg" 
+    data-title="Прочь" 
+    data-year="24 лютого 2017" 
+    data-author="Джордан Пил" 
+    data-duration="1h 47m" 
+    data-hero="Дэниел Калуя" 
+    data-genre="horrors" >
+
+    <img src="хорор 8.jpeg" 
+    data-title="Пила X" 
+    data-year="2023" 
+    data-author="Кевин Гротерт" 
+    data-duration="1h 58m" 
+    data-hero="Тобин Белл" 
+    data-genre="horrors" >
+
+    <img src="хорор 9.jpeg" 
+    data-title="Субстанция" 
+    data-year="20 вересня 2024" 
+    data-author="Корали Фаржа" 
+    data-duration="2h 22m" 
+    data-hero="Деми Мур" 
+    data-genre="horrors" >
+
+     <img src="хорор 1.jpeg" 
+    data-title="Smile" 
+    data-year="2022" 
+    data-author="Паркер Финн" 
+    data-duration="1h 55m" 
+    data-hero="Сози Бэйкон" 
+    data-genre="horrors" >
+
+ <img src="хорор 2.jpeg" 
+    data-title="Ужасающий" 
+    data-year="15 березня 2018" 
+    data-author="Дэмиен Леоне" 
+    data-duration="1h 25m" 
+    data-hero="Дэвид Ховард Торнтон" 
+    data-genre="horrors" >
+
+ <img src="хорор 3.jpeg" 
+    data-title="Stranger Things" 
+    data-year="15 липня 2016" 
+    data-author=" Мэтт Даффер, Росс Даффер, Кейт Трефри, Джастин Добле, Пол Дихтер, Джесси Никсон-Лопез" 
+    data-duration="1h 15m" 
+    data-hero="	Вайнона Райдер
+Дэвид Харбор
+Финн Вулфхард
+Милли Бобби Браун
+Гейтен Матараццо
+Калеб Маклафлин" 
+    data-genre="horrors" >
+
+
+ <img src="хорор 4.jpeg" 
+    data-title="Оно" 
+    data-year="7 вересня 2017" 
+    data-author="Бенджамин Уоллфиш" 
+    data-duration="1h 42m" 
+    data-hero="	Тейлор Пейдж
+Джован Адепо
+Блейк Кэмерон Джеймс
+Крис Чок" 
+    data-genre="horrors" >
+
+  </div>
+</section>
+
+<script>
+  // Фильтрация по жанрам 
+  function filterByGenre(genre) {
+    const images = document.querySelectorAll('.slider img');
+
+    images.forEach(img => {
+      const imgGenre = img.dataset.genre;
+
+      if (!genre || genre === 'all' || imgGenre === genre) {
+        img.style.display = 'block';
+      } else {
+        img.style.display = 'none';
+      }
+    });
+  }
+
+  // Горизонтальный скролл колесиком мыши
+  document.querySelectorAll('.slider').forEach(slider => {
+    slider.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      slider.scrollLeft += e.deltaY;
+    });
+  });
+</script>
+ <script>
+  const filter = document.getElementById('genreFilter');
+
+  filter.addEventListener('change', () => {
+    const genre = filter.value;
+    const images = document.querySelectorAll('.slider img');
+
+    images.forEach(img => {
+      img.style.display =
+        genre === 'all' || img.dataset.genre === genre
+          ? 'block'
+          : 'none';
+    });
+  });
+</script>
+
+<footer class="footer">
+    <p class="footer-question">Questions? Call 1-844-505-2993</p>
+
+    <div class="footer-links">
+        <ul>
+            <li>FAQ</li>
+            <li>Investor Relations</li>
+            <li>Buy Gift Cards</li>
+            <li>Cookie Preferences</li>
+            <li>Legal Notices</li>
+        </ul>
+
+        <ul>
+            <li>Help Center</li>
+            <li>Jobs</li>
+            <li>Ways to Watch</li>
+            <li>Corporate Information</li>
+            <li>Only on Netflix</li>
+        </ul>
+
+        <ul>
+            <li>Account</li>
+            <li>Netflix Shop</li>
+            <li>Terms of Use</li>
+            <li>Contact Us</li>
+            <li>Do Not Sell or Share My Personal Information</li>
+        </ul>
+
+        <ul>
+            <li>Media Center</li>
+            <li>Redeem Gift Cards</li>
+            <li>Privacy</li>
+            <li>Speed Test</li>
+            <li>Ad Choices</li>
+        </ul>
+    </div>
+</footer>
+
+<!-- про фільм -->
+<div class="modal fade" id="movieModal" tabindex="-1">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+
+      <div class="modal-body p-0">
+        <button type="button"
+          class="btn-close btn-close-white position-absolute end-0 m-3"
+          data-bs-dismiss="modal"></button>
+
+        <img id="modalImage" class="w-100" style="max-height:450px; object-fit:cover">
+
+        <div class="p-4">
+          <h2 id="modalTitle"></h2>
+
+<p class="movie-meta">
+  <span id="modalYear"></span> •
+  <span id="modalDuration"></span>
+</p>
+
+          <p><b>Director:</b> <span id="modalAuthor"></span></p>
+          <p><b>Main hero:</b> <span id="modalHero"></span></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ===== JS ===== -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  const modal = new bootstrap.Modal(
+    document.getElementById('movieModal')
+  );
+
+  document.querySelectorAll('.slider img').forEach(img => {
+    img.addEventListener('click', () => {
+
+      document.getElementById('modalImage').src = img.src;
+      document.getElementById('modalTitle').textContent = img.dataset.title;
+      document.getElementById('modalYear').textContent = img.dataset.year;
+      document.getElementById('modalDuration').textContent = img.dataset.duration;
+      document.getElementById('modalAuthor').textContent = img.dataset.author;
+      document.getElementById('modalHero').textContent = img.dataset.hero;
+
+      modal.show();
+    });
+  });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+body 
+{
+     background:rgb(41, 75, 78); 
+     font-family:Arial,sans-serif; 
+     color:#eaeef3; 
+    }
+.card 
+{
+     max-width:380px; 
+     margin:160px auto;
+     padding:20px; 
+     background:rgb(46, 99, 103); 
+     border-radius:14px; 
+    }
+.title
+ { 
+    font-size:1.25rem; 
+    font-weight:700; 
+    margin-bottom:8px; 
+}
+.subtitle 
+{
+     color:#bac1cb; 
+     margin-bottom:18px;
+}
+.btn 
+{ 
+    display:block; 
+    margin-top:10px; 
+    padding:12px; 
+    background:transparent; 
+    color:rgba(152, 196, 202, 1);
+    text-decoration:none; 
+    border: 2px solid #fff; 
+    border-radius: 12px;  
+    text-align:center; 
+}
+.btn:hover
+{
+        background:rgb(255, 255, 255); 
+}
+.or
+ { 
+    text-align:center; 
+    color:#b8c0cc; 
+    margin:16px 0; 
+}
+.checkbox 
+{ 
+    display:flex; 
+    gap:10px; 
+    margin-top:14px; 
+    color:#b8c0cc;
+}
+.disclaimer 
+{ 
+    font-size:.85rem; 
+    color:#e0e4eb; 
+    margin-top:12px;
+ }
+.foot 
+{
+     margin-top:18px; 
+     color:#b8c0cc; 
+    }
+.foot a 
+{
+     color:#4aa3ff; 
+    }
+
+@media (max-width: 480px) {
+
+  body {
+    padding: 20px;
+  }
+
+  .card {
+    margin: 60px auto;
+    padding: 18px;
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .btn {
+    padding: 14px;
+    font-size: 1rem;
+  }
+
+  .checkbox {
+    font-size: 0.9rem;
+  }
+
+  .disclaimer {
+    font-size: 0.8rem;
+  }
+
+  .foot {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
